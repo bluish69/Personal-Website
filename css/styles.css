@@ -1,0 +1,114 @@
+/**********************************************TAG SELECTORS**********************************************/
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #183F61;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #00adb5;
+    border-width: 7px;
+    width: 4%;
+}
+/**********************************************CLASS SELECTORS**********************************************/
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #354D61;
+    color: #C1C6D6;
+}
+.middle-container{
+    background-color: #2B71AD;
+}
+.bottom-container{
+    background-color: #183F61;
+    color: #00adb5;
+    padding: 50px 0;
+}
+.profile{
+    padding-top: 40px;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 365px;
+    width: 220px;
+}
+.div-s{
+    text-align: center;
+    position: relative;
+    
+}
+.s-list{
+    margin-bottom: 80px;
+}
+.circle{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+.square{
+    height: 200px;
+    width: 200px;
+}
+.skills{
+    position: relative;
+}
+.img-left{
+    position: absolute;
+    left: 200px;
+    top: -8px;
+}
+.bottom-cloud{
+    position: absolute;
+    width: 220px;
+}
+.btn {
+    background: #183F61;
+    background-image: -webkit-linear-gradient(top, #183F61, #18557a);
+    background-image: -moz-linear-gradient(top, #183F61, #18557a);
+    background-image: -ms-linear-gradient(top, #183F61, #18557a);
+    background-image: -o-linear-gradient(top, #183F61, #18557a);
+    background-image: linear-gradient(to bottom, #183F61, #18557a);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: 'Nunito', sans-serif;
+    color: #2B71AD;
+    font-size: 20px;
+    padding: 10px 38px 10px 38px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #314e66;
+    background-image: -webkit-linear-gradient(top, #314e66, #447491);
+    background-image: -moz-linear-gradient(top, #314e66, #447491);
+    background-image: -ms-linear-gradient(top, #314e66, #447491);
+    background-image: -o-linear-gradient(top, #314e66, #447491);
+    background-image: linear-gradient(to bottom, #314e66, #447491);
+    text-decoration: none;
+  }
+.sacramento{
+    font-family: 'Sacramento', cursive;
+}
+/**********************************************ID SELECTORS**********************************************/
+#heading{
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#mountain{
+    position: relative;
+    top: 5px;
+    width: 800px;
+}
