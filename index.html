@@ -105,6 +105,8 @@
     const cat = localStorage.getItem('myCat')
     if (cat) {
       document.getElementById("demo").innerHTML = cat;
+    } else {
+      document.getElementById("demo").innerHTML = "Cat not set!";
     }
   </script>
 </body>
